@@ -1,0 +1,28 @@
+name: core
+description: A new Flutter package.
+version: 0.0.1
+author:
+homepage:
+
+environment:
+  sdk: ">=2.6.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  json_serializable: ^3.5.1
+
+  # This is our modular
+  dependencies:
+    path: ../dependencies
+  shared:
+    path: ../shared
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: any
+  analyzer: 0.41.2
+
+flutter:
